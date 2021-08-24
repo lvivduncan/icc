@@ -1,0 +1,64 @@
+#header
+{
+    height: 94px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+} 
+
+#header .wrapper
+{
+    width: 1300px;
+    height: 94px;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+}
+
+/* основне меню */
+#nav
+{
+    padding: 0 30px;
+}
+
+#nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav ul li
+{
+    display: inline-block;
+}
+
+#nav a
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+
+/* перемикач кольору сайту */
+#switch
+{
+    width: 49px;
+    height: 49px;
+    border-radius: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+}
+
+/* батон */
+#try_now
+{
+
+}
