@@ -16,11 +16,24 @@ body
 
 :root
 {
-    --dark: #252B42;
-    --purpur: #9370FE;
+    --gray: #252B42;
+    --purpur: rgb(148, 113, 254);
     --white: #fff;
-
+    --dark: rgba(36, 37, 42,.5);
 }
+
+/* light theme */
+body
+{
+    /**/
+}
+
+/* dark theme */
+body#dark
+{
+    /**/
+}
+
 
 .wrapper
 {
@@ -28,3 +41,62 @@ body
     margin: auto;
 } 
 
+@media(max-width:1480px)
+{
+    .wrapper{
+        width: 95%;
+    }    
+}
+
+/* кнопка "try now" */
+.button
+{
+    background: var(--purpur);
+    border-radius: 10px;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 20px;
+    min-width: 150px;
+    min-height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.button:hover
+{
+    opacity: .8;
+}
+
+/* heading block */
+.title
+{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 67px;
+    color: var(--gray);
+    margin: 0 0 60px;
+}
+
+/* TODO: add highlight to strong */
+
+/* content -- title + paragraph + button */
+.text-content
+{
+    padding-left: 100px;
+}
+
+.text-content .button
+{
+    height: 70px;
+}
+
+.text-content p
+{
+    margin: 0 0 60px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+}

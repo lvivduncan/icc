@@ -1,10 +1,9 @@
-#slide-1
+#slide-2
 {
-    background: url('../images/slide-1-bg.png') no-repeat top right;
     height: 100vh;
 }
 
-#slide-1 .wrapper
+#slide-2 .wrapper
 {
     height: 100vh;
     display: grid;
@@ -13,13 +12,14 @@
     align-items: center;
 }
 
-#slide-1 img
+
+#slide-2 img
 {
     transition: .5s;
 }
 
 /* low animation */
-#slide-1:hover img
+#slide-2:hover img
 {
     transform: scale(1.025);
 }
