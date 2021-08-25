@@ -14,10 +14,15 @@ body
     font-family: 'Raleway', sans-serif;
 }
 
+body
+{
+    overflow-x: hidden;
+}
+
 :root
 {
     --gray: #252B42;
-    --purpur: rgb(148, 113, 254);
+    --purpur: #9471fe;
     --white: #fff;
     --dark: rgba(36, 37, 42,.5);
 }
