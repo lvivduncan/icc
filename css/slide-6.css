@@ -1,0 +1,52 @@
+#slide-6
+{
+    height: 100vh;
+}
+
+#slide-6 img
+{
+    transition: .5s;
+}
+
+#slide-6:hover img
+{
+    transform: scale(1.025);
+}
+
+#slide-6 .wrapper{
+    height: 100vh;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#slide-6 .title
+{
+    text-align: center;
+}
+
+#slide-6 .text-content
+{
+    padding: 0;
+}
+
+#slide-6 dt
+{
+    display: inline-flex;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 600;
+}
+
+#slide-6 dt img
+{
+    margin: 0 10px 0 0;
+}
+
+#slide-6 dd
+{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    margin: 0 0 30px;
+}

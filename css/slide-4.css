@@ -1,0 +1,36 @@
+#slide-4
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slide-4 .wrapper
+{
+    border-radius: 20px;
+    background: linear-gradient(112deg, rgba(237,238,246,1) 0%, rgba(255,255,255,0) 75%, rgba(255,255,255,0) 100%);
+    padding: 100px;
+
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+
+#slide-4 .text-content
+{
+    padding: 0;
+}
+
+#slide-4 .title
+{
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#slide-4 picture
+{
+    transform: translateX(100px);
+}

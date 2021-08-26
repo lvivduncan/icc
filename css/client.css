@@ -1,0 +1,17 @@
+#client
+{
+    padding: 30px 0;
+}
+
+#client .wrapper
+{
+    width: 940px;
+    text-align: center;
+}
+
+#client .title
+{
+    font-size: 36px;
+    line-height: 67px;
+    font-weight: 700;
+}
