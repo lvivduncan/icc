@@ -80,13 +80,36 @@
     margin: 0 0 20px;
     box-shadow: 0 15px 25px rgba(0,0,0,.2);
     /* box-shadow: 0 5px 5px rgb(0 0 0 / 35%); */
+
+    background: rgba(255,255,255,.2);
+}
+
+.dark #slide-9-carousel > div
+{
+    border: 1px solid var(--black);
+    border-top: 1px solid var(--gray);
 }
 
 #slide-9-carousel > div picture
 {
     display: block;
     padding: 10px;
+    /* position: relative; */
+    
 }
+
+/* #slide-9-carousel > div picture::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--white);
+    opacity: .1;
+    z-index: -1;
+} */
 
 #slide-9-carousel > div picture source,
 #slide-9-carousel > div picture img

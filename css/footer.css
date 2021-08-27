@@ -80,3 +80,8 @@
 {
     margin: 0 10px 0 0;
 }
+
+#footer p
+{
+    color: var(--black)
+}

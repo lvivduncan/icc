@@ -21,13 +21,22 @@ body
 
 :root
 {
-    --gray: #252B42;
     --purpur: #9471fe;
     --white: #fff;
+    --gray: #252B42;
     --dark: rgba(36, 37, 42,.5);
+    --black: #000;
     --pink: #FE6F69;
-    --purpur: #9370FE;
+    /* --purpur: #9370FE; */
     --footer: #ECEEFD;
+
+    --svg: #200E32;
+}
+
+.dark :root{
+
+    /* change */
+    
 }
 
 img
@@ -39,13 +48,16 @@ img
 /* light theme */
 body
 {
-    /**/
+    color: var(--black);
 }
 
 /* dark theme */
-body#dark
+body.dark
 {
-    /**/
+    background: var(--black);
+    color: var(--white);
+
+    --svg: #fff;
 }
 
 
@@ -94,6 +106,11 @@ body#dark
     margin: 0 0 60px;
 }
 
+.dark .title
+{
+    color: var(--white);
+}
+
 /* TODO: add highlight to strong */
 .title strong
 {
@@ -138,3 +155,4 @@ body#dark
     font-size: 24px;
     line-height: 38px;
 }
+

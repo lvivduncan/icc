@@ -55,6 +55,11 @@
     transition: .5s;
 }
 
+.dark #nav a
+{
+    color: var(--white);
+}
+
 #nav a.active
 {
     color: var(--purpur);

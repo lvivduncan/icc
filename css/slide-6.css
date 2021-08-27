@@ -43,6 +43,13 @@
     margin: 0 10px 0 0;
 }
 
+#slide-6 dt svg
+{
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 7px;
+}
+
 #slide-6 dd
 {
     font-size: 18px;

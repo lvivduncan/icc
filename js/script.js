@@ -3,6 +3,8 @@
 $('#switch').on('click', function(){
     $(this).toggleClass('active');
 
+    $('body').toggleClass('dark');
+
     // TODO: add localStorage
 });
 
