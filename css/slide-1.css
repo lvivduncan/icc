@@ -17,7 +17,9 @@
     width: 50%;
     height: 50%;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(148,113,254,1) 0%, rgba(255,255,255,0.05) 100%);
+    background: radial-gradient(circle, 
+        rgba(148,113,254,1) 0%, 
+        rgba(255,255,255,0.4) 100%);
     filter: blur(50px);
     opacity: .7;
 }
